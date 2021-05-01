@@ -41,7 +41,9 @@ oddsratio, pvalue = stats.fisher_exact([[380, 753], [1276, 1467]])
     #             the likelihood of people who are enrolled in auto pay churning is 42% lower. 
     # p value is 7.748e-14, which means that there is a difference between the two sets of data
 
-# Next step is to create figures to communicate results
+# Next step is to create figures to communicate results. A proportion graph showing the amount of population leaving 
+# beforea and after the business solution is implemented would support the conclusions. Furthermore,
+# some rudimentary prediction suggests that a 50% conversion from unenrolled to enrolled would reduce churn by 15%
 
 
 
