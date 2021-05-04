@@ -44,6 +44,15 @@ oddsratio, pvalue = stats.fisher_exact([[380, 753], [1276, 1467]])
 # Next step is to create figures to communicate results. A proportion graph showing the amount of population leaving 
 # beforea and after the business solution is implemented would support the conclusions. Furthermore,
 # some rudimentary prediction suggests that a 50% conversion from unenrolled to enrolled would reduce churn by 15%
+# Being constrained to tableu means that a bar graph may be the best choice
 
 
+#Save the month_df dataframe to a .csv to import into Tableu 
 
+month_df.to_csv('monthly_users.csv')
+
+# find total sums of avg monthly prices to determine monthly savings in dollars
+sum1 = fish_1['avg_charges'].sum()
+sum2 = fish_2['avg_charges'].sum()
+sum3 = fish_3['avg_charges'].sum()
+sum4 = fish_4['avg_charges'].sum()

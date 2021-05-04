@@ -1,2 +1,7 @@
 env.py
 __pycache__/
+*.csv
+*.xlsx
+*.png
+*.mov
+*.numbers
