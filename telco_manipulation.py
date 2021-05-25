@@ -13,4 +13,3 @@ churn_db = pd.read_sql('''SELECT * FROM customers
                           JOIN contract_types USING(contract_type_id)
                           JOIN payment_types USING (payment_type_id);''',
                         churn_url)
-
